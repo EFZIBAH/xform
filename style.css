@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  margin: 10px 10px;
+}
 section{
   height: 100vh;
   display: flex;
@@ -10,7 +13,7 @@ section{
   align-items: center;
 }
 .container{
-  background-color: rgb(13, 21, 14);
+  background-color: hsla(33, 92%, 5%, 0.762);
   width: 450px;
   border-radius: 7px;
   
@@ -27,7 +30,7 @@ section{
   color: white;
 }
 .on{
-  background-color: rgb(2, 79, 2) !important;
+  background-color: rgb(193, 128, 37) !important;
 
 }
 form, .form{
@@ -43,7 +46,7 @@ form input, .form input{
   width: 90%;
   margin: 8px;
   padding: 10px 10px;
-  background-color: rgb(13, 21, 14);
+  background-color: hsla(32, 70%, 9%, 0.51);
   border: 1px rgb(84, 82, 82) solid;
   color: white;
 }
@@ -52,14 +55,14 @@ form input, .form input{
   padding: 0 11px;
 }
 #signupsubmit{
-  background-color: rgb(2, 79, 2);
+  background-color: rgb(193, 128, 37);
   width: 80%;
 }
 #loginForm{
   display: none;
 }
 #loginsubmit{
-  background-color: rgb(2, 79, 2);
+  background-color: rgb(193, 128, 37);
   width: 80%;
   padding: 16px 10px;
   border: 1px rgb(97, 94, 94) solid;
